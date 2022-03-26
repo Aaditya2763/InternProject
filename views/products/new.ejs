@@ -1,0 +1,31 @@
+
+
+<% layout('layout/boilerplate2') -%>
+
+<div class="border p-3 mx-auto w-50">
+    <h1>Add New Entity</h1>
+    <form action="/products" method="post" class="form-validate" validate>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" id="name" required>
+            
+        </div>    
+        <div class="mb-3">
+            <label for="price" class="form-label">Phone number</label>
+            <input type="number" class="form-control" name="phone_no" id="phone_no" required>
+            
+        </div>   
+        <div class="mb-3">
+            <label for="img" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="email" required>
+           
+        </div>    
+        <div class="mb-3">
+            <label for="img" class="form-label">Hobbies</label>
+            <input type="text" class="form-control" name="hobbies" id="hobbies" required>
+           
+        </div> 
+
+    <div class="text-center"><button type="submit" class="btn btn-outline-success " >Save</button></div>
+        </form>
+        </div>
